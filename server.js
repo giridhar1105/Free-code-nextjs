@@ -58,10 +58,10 @@ app.post('/gemini-1.5-flash', async (req, res) => {
     - Set up **performance monitoring** (e.g., Google Lighthouse, Next.js analytics) to track load times and optimize performance.
     - Use **Prerendering** for important SEO pages (e.g., homepage, product pages) for improved search engine rankings.
 
-  **Avoid**:
+  Avoid:
     - Avoid using **TypeScript** in this project (follow standard JavaScript instead).
 
-    Give the Project structure everytime.
+    Give the Project structure everytime.Strictly no text should be give only code and complete Project structure.
 `;
   if (!input || typeof input !== 'string') {
     return res.status(400).json({ error: 'Invalid input text' });
